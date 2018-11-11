@@ -1,0 +1,17 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+      {
+        "name": "Django",
+        "type": "python",
+        "request": "launch",
+        "stopOnEntry": false,
+        "pythonPath": "/usr/local/bin/python3",
+        "program": "${workspaceRoot}/manage.py",
+          "args": [
+              "runserver",
+              "8000"
+          ]
+      },
+    ]
+  }
